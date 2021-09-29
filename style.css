@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a{color: #0579c7; font-size: 15px;}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background: linear-gradient(90deg, #1D976C,#46a86a);
+}
+
+.d-flex{display: flex;justify-content: center; padding-top: 80px;}
+
+
+/* button */
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 10px 30px ;
+    margin: 20px 0;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.card{
+    position: relative;
+    width: 350px;
+    padding: 20px 0;
+    height: 350px;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden; 
+}
+input ,button{
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 300px;
+}
+.input{
+    border: 0.5px solid #dfdfdf;
+     margin: 10px auto;
+     padding: 8px 12px;
+     text-align: left;
+ }
+
+.card form{
+    position: absolute;
+    max-width: 350px;
+    transition: transform 1s;
+    padding: 40px 20px;
+
+}
+
+.form-btn{
+    display: inline-block;
+}
+.form-btn span{
+    font-weight: bold;
+    color: #555;
+    width: 100px;
+    display: inline-block;
+    padding: 0 10px;
+    cursor: pointer; 
+}
+
+
+#indicate{
+    position: relative;
+    width: 100px;
+    border: none;
+    background: crimson;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+#login-form{left: -350px;}
+#signup-form{left: 0px;}
